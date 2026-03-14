@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Dunlap Daily</title><link>https://your-username.github.io/dunlap_daily/feed.xml</link><description>Daily insights and updates from Dunlap</description><atom:link href="https://your-username.github.io/dunlap_daily/feed.xml" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en-US</language><lastBuildDate>Sun, 01 Mar 2026 00:45:08 +0000</lastBuildDate><item><title>Daily Update - February 28, 2026</title><link>https://your-username.github.io/dunlap_daily/archive/2026-02-28.html</link><description>&lt;h3&gt;HIGHLIGHTS&lt;/h3&gt;
+&lt;p&gt;• Completed newsletter automation system&lt;/p&gt;
+&lt;p&gt;• Set up OneDrive integration&lt;/p&gt;
+&lt;p&gt;• Configured GitHub Pages deployment&lt;/p&gt;
+
+&lt;h3&gt;NEWS&lt;/h3&gt;
+&lt;p&gt;The Dunlap Daily newsletter system is now fully operational! This automated system fetches content from OneDrive documents and generates beautiful RSS feeds and web pages.&lt;/p&gt;
+
+&lt;h3&gt;ANNOUNCEMENTS&lt;/h3&gt;
+&lt;p&gt;Starting tomorrow, the newsletter will be automatically generated and published every morning at 9 AM. Make sure to update the daily content document in OneDrive to see your updates reflected on the website.&lt;/p&gt;
+</description><guid isPermaLink="true">https://your-username.github.io/dunlap_daily/archive/2026-02-28.html</guid><pubDate>Sat, 28 Feb 2026 20:57:13 +0000</pubDate></item><item><title>Daily Update - February 28, 2026</title><link>https://your-username.github.io/dunlap_daily/archive/2026-02-28.html</link><description>&lt;h3&gt;HIGHLIGHTS&lt;/h3&gt;
+&lt;p&gt;• Completed newsletter automation system&lt;/p&gt;
+&lt;p&gt;• Set up OneDrive integration&lt;/p&gt;
+&lt;p&gt;• Configured GitHub Pages deployment&lt;/p&gt;
+
+&lt;h3&gt;NEWS&lt;/h3&gt;
+&lt;p&gt;The Dunlap Daily newsletter system is now fully operational! This automated system fetches content from OneDrive documents and generates beautiful RSS feeds and web pages.&lt;/p&gt;
+
+&lt;h3&gt;ANNOUNCEMENTS&lt;/h3&gt;
+&lt;p&gt;Starting tomorrow, the newsletter will be automatically generated and published every morning at 9 AM. Make sure to update the daily content document in OneDrive to see your updates reflected on the website.&lt;/p&gt;
+</description><guid isPermaLink="true">https://your-username.github.io/dunlap_daily/archive/2026-02-28.html</guid><pubDate>Sat, 28 Feb 2026 21:25:25 +0000</pubDate></item></channel></rss>

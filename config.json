@@ -1,0 +1,25 @@
+{
+  "newsletter": {
+    "title": "Dunlap Daily",
+    "description": "Daily insights and updates from Dunlap",
+    "author": "Dunlap Team",
+    "link": "https://keithjamesd.github.io/dunlap_daily",
+    "language": "en-US"
+  },
+  "onedrive": {
+    "client_id": "",
+    "client_secret": "",
+    "tenant_id": "",
+    "file_path": "/path/to/your/daily-content.docx",
+    "refresh_token": ""
+  },
+  "github": {
+    "repository": "KeithJamesD/dunlap_daily",
+    "pages_url": "https://keithjamesd.github.io/dunlap_daily",
+    "token": ""
+  },
+  "automation": {
+    "run_time": "09:00",
+    "timezone": "America/New_York"
+  }
+}
