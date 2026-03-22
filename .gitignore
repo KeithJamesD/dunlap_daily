@@ -48,6 +48,24 @@ Thumbs.db
 *.log
 logs/
 
+# Local configuration files with sensitive credentials
+config_local.json
+email_config_local.json
+*.local.json
+*.local.config
+
+# Sensitive files
+*.key
+*.pem
+*.secret
+credentials.json
+
+# Content drafts and temporary files
+*_draft.*
+*_temp.*
+*.tmp
+*.temp
+
 # Sensitive files
 .env
 *.key

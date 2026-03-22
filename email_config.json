@@ -1,0 +1,13 @@
+{
+  "email": {
+    "enabled": false,
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "username": "", 
+    "password": "",
+    "from_name": "Dunlap Daily",
+    "from_email": "",
+    "subject_template": "{title} - {date}",
+    "subscribers_file": "subscribers.json"
+  }
+}
