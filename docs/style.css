@@ -116,43 +116,26 @@ article time {
     line-height: 1.8;
 }
 
-/* Entry Previews */
-.entry-preview {
+/* Entry Full Display */
+.entry-full {
     border-bottom: 1px solid var(--border-color);
-    padding-bottom: 1.5rem;
-    margin-bottom: 1.5rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
-.entry-preview:last-child {
+.entry-full:last-child {
     border-bottom: none;
 }
 
-.entry-preview h3 {
+.entry-full h3 {
     margin-bottom: 0.5rem;
-}
-
-.entry-preview h3 a {
     color: var(--primary-color);
-    text-decoration: none;
 }
 
-.entry-preview h3 a:hover {
-    color: var(--secondary-color);
-}
-
-.excerpt {
-    color: #666;
+.entry-full .content {
+    color: #333;
     margin: 1rem 0;
-}
-
-.read-more {
-    color: var(--secondary-color);
-    text-decoration: none;
-    font-weight: 500;
-}
-
-.read-more:hover {
-    text-decoration: underline;
+    line-height: 1.8;
 }
 
 /* Archive */
