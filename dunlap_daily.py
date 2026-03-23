@@ -259,7 +259,8 @@ class DunlapDailyGenerator:
                 
             # First non-empty line is typically the title
             if not title:
-                title = line
+                # Remove zero-width no-break space and other problematic characters
+                title = line.replace('\ufeff', '').replace('\u200b', '').strip()
                 continue
             
             # Look for section headers (lines that might be in all caps or have special formatting)
@@ -329,6 +330,10 @@ class DunlapDailyGenerator:
         date_str = entry["date"].strftime("%Y-%m-%d")
         html_file = self.archive_dir / f"{date_str}.html"
         
+        # Fix image paths for archive pages (need ../ prefix)
+        content = entry['content']
+        content = content.replace('src="images/', 'src="../images/')
+        
         html_content = f"""
 <!DOCTYPE html>
 <html lang="en">
@@ -353,7 +358,7 @@ class DunlapDailyGenerator:
             <h2>{entry['title']}</h2>
             <time datetime="{entry['date'].isoformat()}">{entry['date'].strftime('%B %d, %Y')}</time>
             <div class="content">
-                {entry['content']}
+                {content}
             </div>
         </article>
     </main>
@@ -551,13 +556,12 @@ class DunlapDailyGenerator:
         for entry in entries[:5]:  # Show 5 most recent
             date_str = entry["date"].strftime("%B %d, %Y")
             recent_entries_html += f"""
-            <article class="entry-preview">
-                <h3><a href="{entry['permalink']}">{entry['title']}</a></h3>
+            <article class="entry-full">
+                <h3>{entry['title']}</h3>
                 <time>{date_str}</time>
-                <div class="excerpt">
-                    {entry['content'][:200]}...
+                <div class="content">
+                    {entry['content']}
                 </div>
-                <a href="{entry['permalink']}" class="read-more">Read more</a>
             </article>
             """
         

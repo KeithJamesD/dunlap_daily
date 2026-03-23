@@ -1,26 +1,169 @@
 Dunlap Daily 3_22_26
- ![Brett Whitely 1961](images/Picture2.jpg)
-Brett Whitely 1961
+ ![Charles Babbage](images/Picture3.jpg)
+Charles Babbage
 
-NEWS
-USPS proposes raising first class stamps up to 95 cents.
+NAI/TECH
+•	
+Major Headlines & Core AI Shifts
 
-US regulators are preparing to free up roughly $200 billion in bank capital.
+•	NVIDIA DLSS 5: “GPT Moment” for Graphics
+o	Nvidia unveiled DLSS 5, reframing real time rendering as an AI native process rather than a rasterization pipeline.
+o	DLSS 5 uses an end to end generative model that interprets scene semantics from a single frame (characters, lighting, materials) to generate photorealistic output, not just upscale resolution.
+o	Demos (Resident Evil Requiem, Starfield, Hogwarts Legacy) show dramatic lighting and shadow improvements—but also visible stylistic drift in faces and materials, triggering developer backlash over loss of artistic control.
+o	Nvidia claims granular controls (masking, exclusion zones, color grading), though critics argue these were poorly communicated.
+o	Release targeted for fall with AAA support confirmed.&wdpartid={fe89a399-79fa-41c3-bf90-8afdba7956b4}{1}&wdsectionfileid={36b6032f-217f-4d95-a957-d11d4ec0651b})
+•	Nvidia GTC 2026: Compute, Video, and Scale
+o	Nvidia introduced the Vera Rubin platform: 
+	72 Rubin GPUs per system
+	54 TB CPU memory
+	~1.3 million components per system
+	Claimed 10× performance per watt vs. Grace Blackwell
+o	Runway demoed near instant AI video generation with sub 100 ms time to first frame, approaching or beating human blink speed.
+o	Nvidia projected $1 trillion in AI infrastructure orders through 2027, doubling its prior estimate.
 
-Trump era immigration policy has produced a new billionaire family, Tommy Fisher, president of Fisher Sand & Gravel.
+o	Next architectures previewed: Feynman GPU and Rosa CPU.
+•	OpenAI Pivots Hard Toward Enterprise & Agentic Productivity
+o	OpenAI is consolidating ChatGPT, Codex, and Atlas into a single desktop “superapp.”
+o	Leadership cited execution slowdown from a fragmented multi app strategy.
+o	The unified app centers on autonomous agents spanning coding, data analysis, and productivity.
+o	Competitive pressure noted: Anthropic’s enterprise share reportedly ~40% vs. OpenAI ~27%.
+o	Mobile ChatGPT remains separate.
 
-Eighth Circuit struck down the Biden era SAVE repayment plan.
+•	MiniMax M2.7: Agentic Performance at Radical Cost Reduction
+o	MiniMax M2.7 performed strongly on SWE Pro, VIBE Pro, and Terminal Bench 2.
+o	Features include: 
+	24K context window
+	Multi agent collaboration
+	Autonomous debugging
+	100+ self training cycles
+o	Pricing as low as $0.30 per million input tokens, framed as up to 50× cheaper than some Western closed models.
+o	
+Agentic Systems, Platforms & Competitive Escalation
+•	Meta / Manus: Local AI Agents on Personal Computers
+o	Manus launched Mac and Windows apps enabling system level AI agents (“My Computer”).
+o	Capabilities include file access, app control, command line execution, and bulk task automation.
+o	Permissioning is folder level, but security experts warn of risks from persistent system level agents.
+o	Freemium model; paid tiers start at $20/month.
 
-Kudos launched AI powered bill negotiation and cancellation tools.
+•	Anthropic Responds to OpenClaw
+o	Anthropic released Claude Code Channels, allowing users to interact with ongoing Claude Code sessions via Telegram or Discord.
+o	Added recurring tasks, pushing Claude Code toward persistent agent workflows.
+o	Framed as a catch up move after OpenAI hired OpenClaw’s creator.
 
-AI/TECH
-Boston Dynamics quadruped robots are now patrolling major US data centers.
+Business, Governance & Risk Signals
+•	Copyright Escalation
+o	Encyclopedia Britannica and Merriam Webster sued OpenAI over alleged unauthorized training on reference content.&
+•	Corporate Power & Labor Shifts
+o	Meta plans to replace large portions of human content moderation with AI systems.
+o	Microsoft is reviewing whether AWS hosting OpenAI’s “Frontier” product violates Azure exclusivity terms.
 
-Humanoid robots could break the 10 second 100 meter sprint by mid 2026.
 
-Lucid Motors unveiled “Lunar”, a two seat robotaxi.
+Bizarre, Underreported & Human Experience Shifting Stories (AI Note)
 
-A California civil jury found that Elon Musk intentionally misled Twitter shareholders in 2022 while attempting to exit his $44B acquisition of the company.
+•	Plastic Waste → Parkinson’s Drug
+o	University of Edinburgh scientists engineered bacteria to convert plastic waste into L DOPA, reframing pollution as pharmaceutical feedstock.
+o	Technique may extend to fragrances, food flavorings, and dyes.
 
-OpenAI plans to expand headcount from ~4,500 to ~8,000 employees by the end of 2026.
+•	Man Lives ~48 Hours Without Lungs
+o	Doctors removed both lungs of a pneumonia patient and sustained him on artificial life support until transplant.
+o	Described as a last ditch intervention that may redefine transplant bridge strategies.
+•	AI Driven Cattle Herding (“Cowgorithm”)
+o	Halter’s AI collars guide cattle using GPS, sound, and vibration—eliminating fences and dogs.
+o	Tracks digestion, fertility, and health; over 600,000 cattle already deployed.
+o	Backed by Founders Fund.
 
+•	Off Planet AI Infrastructure
+o	Blue Origin filed to deploy 51,600 AI compute satellites (“Project Sunrise”) performing AI compute directly in orbit using solar power.
+o	Competes with SpaceX, Google, and Starcloud.
+
+
+Tech 3 23 26 — Comprehensive Summary
+
+Lead Story: Ethics, AI, and Moral Expansion
+•	Bay Area Animal Welfare Movement Goes “AGI Pilled” 
+o	Animal welfare advocates and AI researchers convened in San Francisco to explore using AI (and possibly AGI) to reduce animal suffering.
+o	Proposed applications: 
+	Automating advocacy
+	Optimizing donor outreach
+	Analyzing policy and supply chain data
+	Accelerating cultivated meat development via ML
+o	Attendees anticipate a new funding pipeline from highly compensated AI lab employees aligned with effective altruism.
+o	Most contentious idea: whether future AI systems could themselves be capable of suffering, extending animal rights logic to machine consciousness.
+o	Framed as speculative but taken seriously by some participants.
+
+Big Tech, Power & Control
+
+•	Meta’s Internal “CEO Agent”
+o	Mark Zuckerberg is building an internal AI agent to assist with executive decision making.
+o	AI usage is embedded into Meta’s culture: 
+	Factors into performance reviews
+	Regular tutorials
+	Frequent hackathons
+o	Signals normalization of AI mediated management, not just engineering tools.
+
+•	Amazon’s AI Centric Smartphone
+o	Amazon is developing an AI first phone (“Transformer”) centered on: 
+	Amazon services
+	AI driven shopping flows
+	Potential replacement of traditional app stores with AI interfaces
+o	Project could still be canceled depending on costs and strategy.
+
+•	Tesla + SpaceX “Terafab”
+o	Joint plan to build a semiconductor factory in Austin producing chips for: 
+	Tesla vehicles
+	Optimus humanoid robots
+	Space applications
+o	Described as strategically bold, capital intensive, and risky.
+
+
+Work, Knowledge & Organizational Change
+
+•	Snowflake’s AI Driven Layoffs
+o	Snowflake laid off technical writers after: 
+	Screen recording their workflows for eight months
+	Training AI on their output
+	Having writers spend final weeks transferring knowledge to the system
+o	Management claims documentation quality held steady and productivity rose ~300%.
+o	A rare, explicit example of full human to AI role replacement.
+
+•	Visual Communication Replacing Text
+
+o	Thesis presented that visuals are becoming the default medium for: 
+
+	Idea sharing
+	Team leadership
+	Rapid execution
+o	Driven by collapsing costs and speed of image generation.
+
+
+Neurotechnology, Rights & Identity (Bizarre / Underreported)
+
+•	Brain Implant Removed Against Patient’s Will 
+
+o	Rita Leggett received an experimental brain implant that altered her sense of agency and identity.
+
+o	After the company went bankrupt, the implant was removed against her wishes.
+
+o	Presented as a case for formalizing “neuro rights”—legal protections for people with implanted neurotechnology.
+
+
+Cross Cutting Structural Signals
+
+•	Agency is migrating 
+o	From humans → AI agents (code, management, moderation, advocacy, farming).
+
+•	Creative control is contested 
+
+o	DLSS 5 shows AI can improve output while eroding authorship.
+
+•	Ethics is expanding beyond biology 
+
+o	Animal welfare logic now seriously entertains machine suffering.
+
+•	Infrastructure is escaping Earth 
+
+o	AI computing is no longer assumed to be terrestrial.
+
+•	Jobs are being cleanly replaced, not augmented 
+
+o	Snowflake offers a rare, documented end to end example.
